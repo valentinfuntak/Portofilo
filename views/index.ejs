@@ -1,20 +1,64 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
     <title>Portofilo</title>
-    <link rel="icon" type="image/x-icon" href="public/images/slika.png">
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <div class="nav_traka">
-      <ul>
-        <li><a href="/views/error.ejs">Portofiloo</a></li>
-        <li><a href="/views/error.ejs">Projekti</a></li>
-        <li><a href="/views/error.ejs">Blog</a></li>
-        <li><a href="/views/error.ejs">Usluge</a></li>
-        <li><a href="/views/error.ejs">Kontakt</a></li>
-      </ul>
-    </div>
-  </body>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Moj portofilo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#O_meni">O meni</a></li>
+                    <li><a href="#Projekti">Projekti</a></li>
+                    <li><a href="#Kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="O-meni">
+        <div class="container">
+            <article>
+                <h2>O meni</h2>
+                <p>Dobrodošli na moj portofilo. Ja sam Valentin Funtak, ovaj projekt sam započeo iz čežnje za stjecanjem novog znanja!</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="projekti">
+        <div class="container">
+            <article>
+                <h2>Projekti</h2>
+                <div class="projekt">
+                    <h3>Web Stranica 1</h3>
+                    <p>Opis projekta 1.</p>
+                </div>
+                <div class="projekt">
+                    <h3>Web Stranica 2</h3>
+                    <p>Opis projekta 2.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="kontakt">
+        <div class="container">
+            <article>
+                <h2>Kontakt</h2>
+                <p>Za kontakt možete poslati email na: <a href="mailto:valentinfuntakk@gmail.com">valentinfuntakk@gmail.com</a></p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Moj portofilo</p>
+        </div>
+    </footer>
+
+</body>
 </html>
